@@ -37,7 +37,7 @@
    "node": ">=14.0.0",
   "scripts": {
         "start": "node index.js"
-      },
+      }, 
       "repository": {
         "type": "git",
         "url": "git+https://github.com/brblacky/Alina.git"
@@ -47,9 +47,9 @@
         "music-bot",
         "moderation",
         "fun",
-        "alina"
+        "clomel"
       ],
-      "author": "Blacky#6618, Venom#9718",
+      "author": "araan_sheikh#4416",
       "license": "MIT",
       "bugs": "https://github.com/brblacky/Alina/issues",
       "homepage": "https://github.com/brblacky/Alina#readme"
