@@ -91,7 +91,7 @@ module.exports = class Anischedule{
     return new MessageEmbed()
     .setColor(entry.media.coverImage.color || 'GREY')
     .setThumbnail(entry.media.coverImage.large)
-    .setAuthor('ALi Anischedule')
+    .setAuthor('Clomel Anischedule')
     .setTimestamp(date)
     .setDescription([
       `Episode **${entry.episode}** of **[${entry.media.title.romaji}](${entry.media.siteUrl})**`,
