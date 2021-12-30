@@ -16,7 +16,7 @@ module.exports = {
   group: 'General',
   description: 'Displays basic information or a help for a command.',
   clientPermissions: [ 'EMBED_LINKS' ],
-  parameters: [ 'Command Name/Alina' ],
+  parameters: [ 'Command Name/Clomel' ],
   examples: [
     'help anirand',
     'help watching',
@@ -45,7 +45,7 @@ module.exports = {
       Setup: `${em.setup}`,
       Social: `${em.social}`,
       Utility: `${em.utility}`
-    }
+    } 
     const ignored = ['Owner']
     readdirSync("./commands/").forEach((dir) => {
       const editedName = `${diremojis[dir]}  ${dir.toUpperCase()}`
