@@ -97,15 +97,15 @@ const settings = {
   
   // Array of owners recognized by the bot. ID here will be given access to
   // owner based commands.
-  owners: [ '491577179495333903' ],
+  owners: [ '875768640320962650' ],
 
   // websites affiliated with the bot, can be accessed through
   // Client#config#websites
   websites: {
-    "repository":"https://github.com/brblacky/ALi#readme/",
-    "invite": "https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot",
-    "support": "https://discord.gg/uAVaeCP9VH",
-    "DisBotlist": "https://disbotlist.xyz/bot/841716414053351486"
+    "repository":"https://github.com",
+    "invite": "https://discord.com/api/oauth2/authorize?client_id=926170638555680879&permissions=8&scope=bot",
+    "support": "https://discord.gg/tpqdMmHfSp",
+    "DisBotlist": "https://disbotlist.xyz/bot/926170638555680879"
   }
 };
 
