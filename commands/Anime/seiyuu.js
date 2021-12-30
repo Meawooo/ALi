@@ -93,7 +93,7 @@ module.exports = {
     ])
     .setFooter([
       `Search duration: ${Math.abs(elapsed / 1000).toFixed(2)} seconds`,
-      `Seiyuu Query with ALi | \©️${new Date().getFullYear()} ${client.config.foot}`
+      `Seiyuu Query with Clomel | \©️${new Date().getFullYear()} ${client.config.foot}`
     ].join('\u2000•\u2000'));
 
     return await mainpage.edit(embed).catch(()=>null) || message.channel.send(embed).then(()=>null);
