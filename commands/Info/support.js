@@ -36,7 +36,7 @@ module.exports = {
           name: 'Vote Clomel.',
           value: [
             'Clomel is available both on [DiscordBotList](https://discordbotlist.com/bots/clomel) and',
-            '[DisBotlist](https://disbotlist.xyz/bot/841716414053351486). If you like this bot please vote and leave',
+            '[DisBotlist](https://disbotlist.xyz/bot/926170638555680879). If you like this bot please vote and leave',
             'a review. Your review will be helpful when making changes to the bot. As of the moment,',
             'there are no rewards implemented for voting, but is subject to change.'
           ].join(' ')
