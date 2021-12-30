@@ -11,7 +11,7 @@ module.exports = {
   examples: [
     'kick @user breaking server rules',
     'kick @user',
-    'kick 7827342137832612783'
+    'kick userid'
   ],
   run: async (client, message, [member = '', ...reason] ) => {
 
@@ -66,7 +66,7 @@ module.exports = {
     await member.send(`**${message.author.tag}** kicked you from ${message.guild.name}!\n**Reason**: ${reason.join(' ') || 'Unspecified.'}`)
     .catch(() => null);
 
-    return member.kick({ reason: `ALi Kick Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
+    return member.kick({ reason: `Clomel Kick Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
     .then(_member => message.channel.send(`${em.success} Successfully kicked **${_member.user.tag}**`))
     .catch(() => message.channel.send(`${em.error} | Failed to kicked **${member.user.tag}**!`));
   }
