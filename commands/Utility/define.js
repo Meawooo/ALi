@@ -21,11 +21,11 @@ module.exports = {
     if (!args.length) {
       return message.channel.send( new MessageEmbed()
       .setAuthor(`Urban Dictionary`,`https://files.catbox.moe/kkkxw3.png`,`https://www.urbandictionary.com/`)
-      .setTitle(`Definition of Best Girl`)
+      .setTitle(`Definition of Best Bot`)
       .setURL('https://ao-buta.com/tv/?innerlink')
-      .addField(`Definition`,`No arguing, Alina blacky indeed is the best anime girl!`)
-      .addField('Example(s)', '[Alina blacky] is the best girl around. No one could beat her, not even zero two.')
-      .addField('\u200b', 'Submitted by Blacky')
+      .addField(`Definition`,`No arguing, Clomel blacky indeed is the best Discord Bot!`)
+      .addField('Example(s)', '[CLOMEL] is the best bot around. No one could beat him.')
+      .addField('\u200b', 'Submitted by ARAAN')
       .setColor(color)
       .setFooter(`Define | \©️${new Date().getFullYear()} Alina`));
     };
