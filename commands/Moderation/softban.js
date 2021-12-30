@@ -61,10 +61,10 @@ module.exports = {
 		}
 
 		return message.guild.members
-			.ban(member, { reason: `ALINA_SOFTBANS: ${message.author.tag}`, days: 7 })
+			.ban(member, { reason: `CLOMEL_SOFTBANS: ${message.author.tag}`, days: 7 })
 			.then(() =>
 				message.guild.members.unban(member, {
-					reason: `ALINA_SOFTBANS: ${message.author.tag}`
+					reason: `CLOMEL_SOFTBANS: ${message.author.tag}`
 				})
 			)
 			.then(() =>
