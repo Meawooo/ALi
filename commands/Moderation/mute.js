@@ -10,7 +10,7 @@ module.exports = {
   parameters: [ 'User Mention | ID' ],
   examples: [
     'mute @user',
-    'mute 798213718237181231'
+    'mute userid'
   ],
   run: async (client, message, [member = ''] ) => {
 
