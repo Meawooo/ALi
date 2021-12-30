@@ -27,7 +27,7 @@ module.exports = {
       id: message.guild.me.id,
       allow: [ 'SEND_MESSAGES' ]
     }
-  ], `Alina Lockdown Command: ${message.author.tag}`)
+  ], `Clomel Lockdown Command: ${message.author.tag}`)
   .then((ch) => message.channel.send(
     ch.permissionsFor(message.guild.roles.everyone).has('SEND_MESSAGES')
     ? `${em.success} Lockdown Ended! Everyone can now send messages on this channel`
