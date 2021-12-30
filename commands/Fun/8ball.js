@@ -30,7 +30,7 @@ module.exports = {
   description: 'Ask anything on the magic 8-ball',
   parameters: [ 'Question answerable by Yes/No' ],
   examples: [
-    '8ball is Alina a good bot?',
+    '8ball is Clomel a good bot?',
     '🎱 is FMA worth of it\'s top spot?',
     '8b is BNHA good',
     '8-ball Do you want to play Among us?',
