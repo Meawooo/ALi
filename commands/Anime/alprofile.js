@@ -52,7 +52,7 @@ module.exports = {
       .setThumbnail(response.data.User.avatar.medium)
       .setAuthor(response.data.User.name, null, response.data.User.siteUrl)
       .setDescription(text.truncate(decode(response.data.User.about.replace(/(<([^>]+)>)/ig,'') || ''), 250))
-      .setFooter(`ALi Profile | \©️${new Date().getFullYear()} ${client.config.foot}`)
+      .setFooter(`Clomel Profile | \©️${new Date().getFullYear()} ${client.config.foot}`)
       .addFields(Object.entries(response.data.User.favourites).map(([topic, target]) => {
         topic = topic.charAt(0).toUpperCase() + topic.slice(1);
         return {
