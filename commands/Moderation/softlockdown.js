@@ -16,7 +16,7 @@ module.exports = {
     {
       SEND_MESSAGES: !message.channel.permissionsFor(message.guild.roles.everyone).has('SEND_MESSAGES')
     },
-    `Alina Soft-Lockdown Command: ${message.author.tag}`)
+    `Clomel Soft-Lockdown Command: ${message.author.tag}`)
   .then((ch) => message.channel.updateOverwrite(client.user, { SEND_MESSAGES: true }))
   .then((ch) => message.channel.send(
     ch.permissionsFor(message.guild.roles.everyone).has('SEND_MESSAGES')
