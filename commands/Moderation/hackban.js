@@ -9,7 +9,7 @@ module.exports = {
   description: 'bans a user even if they are not in the server.',
   parameters: [ 'User ID', 'Ban Reason'],
   examples: [
-    'hackban 7823713678123123123',
+    'hackban userid',
     'hackban 2345678765423567817 not following discord tos'
   ],
   run: async (client, message, [user = '', ...reason] ) => {
