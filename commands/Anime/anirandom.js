@@ -13,7 +13,7 @@ module.exports = {
     message: 'You are going too fast. Please slow down to avoid getting rate-limited!'
   },
   group: 'Anime',
-  description: 'Generates a random anime recommendation. Recommends a Hentai if used on a nsfw channel.',
+  description: 'Generates a random anime recommendation.',
   clientPermissions: [ 'EMBED_LINKS' ],
   parameter: [],
   examples: [
@@ -24,7 +24,7 @@ module.exports = {
   get examples(){ return [this.name, ...this.aliases]; },
   run: async ( client, message ) => {
 
-    // Indicator that Alina is trying to fetch these data
+    // Indicator that Clomel is trying to fetch these data
     message.channel.startTyping();
     const { color } = client.config;
     const db = animeDB.filter(a => message.channel.nsfw === a.isAdult);
@@ -38,10 +38,10 @@ module.exports = {
     // If errored due to ratelimit error
     if (errors && errors.some(x => x.status === 429)){
       return message.channel.send(
-        embed.setAuthor('Oh no! Alina has been rate-limited', 'https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
+        embed.setAuthor('Oh no! Clomel has been rate-limited', 'https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
         .setDescription([
           `**${message.member.displayName}**, please try again in a minute.\n\n`,
-          `If this error occurs frequently, please contact **Blacky#6618**.`
+          `If this error occurs frequently, please contact **araan_sheikh#4416**.`
         ].join(''))
       );
     };
@@ -52,8 +52,8 @@ module.exports = {
         embed.setAuthor('Oops! A wild bug 🐛 appeared!', 'https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
         .setDescription([
           `**${message.member.displayName}**, this error wasn't supposed to happen.\n\n`,
-          `Please contact **Blacky#6618** for a quick fix.\n`,
-          `You can make an issue on the [repository](${client.config.github}) or [join](https://discord.gg/DsKaXx84AK) Alina's dev server instead.`
+          `Please contact **araan_sheikh#4416** for a quick fix.\n`,
+          `You can make an issue on the [join](https://discord.gg/tpqdMmHfSp) Clomel dev server .`
         ].join(''))
       );
     };
@@ -66,7 +66,7 @@ module.exports = {
           `**${message.member.displayName}**, this error wasn't supposed to happen.\n\n`,
           `This might be an issue on Anilist's end. Please try again in a minute\n`,
           `If this doesn't resolve in few hours, you may contact **Blacky#6618**`,
-          `You can also make an issue on the [repository](${client.config.github}) or [join](https://discord.gg/gfcv94hDhv) ALi's dev server instead.`
+          `You can also make an issue on the [join](https://discord.gg/tpqdMmHfSp) Clomel dev server .`
         ].join(''))
       );
     };
