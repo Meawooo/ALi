@@ -50,7 +50,7 @@ module.exports = {
       if (err) {
         return message.channel.send(
           embed.setAuthor('Database Error','https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
-          .setDescription('ALi\'s Database Provider responded with an error: ' + err.name)
+          .setDescription('Clomel\'s Database Provider responded with an error: ' + err.name)
         );
       };
 
