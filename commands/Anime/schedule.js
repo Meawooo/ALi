@@ -71,7 +71,7 @@ module.exports = {
         .setFooter([
           `Search duration: ${Math.abs(elapsed / 1000).toFixed(2)} seconds`,
           `Page ${pages.size === null ? 1 : pages.size + 1} of ${res[day].length}`,
-          `Schedule Query with | \©️${new Date().getFullYear()} Alina`
+          `Schedule Query with | \©️${new Date().getFullYear()} Clomel`
         ].join('\u2000\u2000•\u2000\u2000'))
         .addFields([
           { name: 'Type',      value: info.type || 'Unknown', inline: true },
