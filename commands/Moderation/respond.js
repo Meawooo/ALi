@@ -19,7 +19,7 @@ module.exports = {
 
     const embed = new MessageEmbed()
     .setColor('RED')
-    .setFooter(`Respond to Suggestion | \©️${new Date().getFullYear()} Alina`);
+    .setFooter(`Respond to Suggestion | \©️${new Date().getFullYear()} Clomel`);
 
     if (!channelID){
       return message.channel.send(
