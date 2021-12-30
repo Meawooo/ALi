@@ -8,7 +8,7 @@ module.exports = {
   cooldown: { time: 30000 },
   clientPermissions: [ ],
   group: 'Info',
-  description: 'Sends support message to this bot\'s owner (@Blacky#6618 )',
+  description: 'Sends support message to this bot\'s owner (@araan_sheikh#4416 )',
   parameters: [ 'Feedback Message' ],
   examples: [
     'feedback this command is not working bla bla..'
@@ -28,7 +28,7 @@ module.exports = {
     const owner = await client.users.fetch('491577179495333903').catch(() => null);
 
     if (!owner){
-      return message.channel.send(`Couldn't contact @Blacky#6618 !`);
+      return message.channel.send(`Couldn't contact @araan_sheikh#4416 !`);
     };
 
     return owner.send(
@@ -58,6 +58,6 @@ module.exports = {
         ].join('\n')
       })
     ).then(() => message.react('✅')).catch(() => message.channel.send('✅ Feedback Sent!'))
-    .catch(err => message.channel.send(`@Blacky#6618  is currently not accepting any Feedbacks right now via DMs. You might to join my support server instead or make an issue on my github repo to directly address your issue.`));
+    .catch(err => message.channel.send(`@araan_sheikh#4416  is currently not accepting any Feedbacks right now via DMs. You might to join my support server.`));
   }
 };
