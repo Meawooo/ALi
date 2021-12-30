@@ -55,9 +55,9 @@ module.exports = {
         .setDescription([
           `**${message.member.displayName}**, this error wasn't supposed to happen.\n\n`,
           'This might be an issue on Anilist\'s end. Please try again in a minute\n',
-          'If this doesn\'t resolve in few hours, you may contact **Blacky#6618**.',
-          `You can also make an issue on the [repository](${client.config.websites.github})`,
-          'or [join](https://discord.gg/DsKaXx84AK) Alina\'s dev server instead.'
+          'If this doesn\'t resolve in few hours, you may contact **araan_sheikh#4416**.',
+          `You can also make an issue on the`,
+          ' [join](https://discord.gg/tpqdMmHfSp) Clomel dev server instead.'
         ].join(' '))
       );
     };
