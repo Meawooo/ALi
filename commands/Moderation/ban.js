@@ -11,7 +11,7 @@ module.exports = {
   examples: [
     'ban @user breaking server rules',
     'ban @user',
-    'ban 7827342137832612783'
+    'ban userid'
   ],
   run: async (client, message, [member = '', ...reason] ) => {
 
