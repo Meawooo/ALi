@@ -39,7 +39,7 @@ module.exports = {
         embed.setAuthor('Oh no! ALi has been rate-limited', 'https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
         .setDescription([
           `**${message.member.displayName}**, please try again in a minute.\n\n`,
-          `If this error occurs frequently, please contact **@Blacky#6618 **.`
+          `If this error occurs frequently, please contact **@araan_sheikh#4416 **.`
         ].join(''))
       );
     };
@@ -50,8 +50,8 @@ module.exports = {
         embed.setAuthor('Oops! A wild bug 🐛 appeared!', 'https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
         .setDescription([
           `**${message.member.displayName}**, this error wasn't supposed to happen.\n\n`,
-          `Please contact **@Blacky#6618 ** for a quick fix.\n`,
-          `You can make an issue on the [repository](${client.config.github}) or [join](https:) ALi's dev server instead.`
+          `Please contact **@araan_sheikh#4416 ** for a quick fix.\n`,
+          `You can make an issue on the [join](https:) Clomel dev server.`
         ].join(''))
       );
     };
@@ -63,8 +63,8 @@ module.exports = {
         .setDescription([
           `**${message.member.displayName}**, this error wasn't supposed to happen.\n\n,`
           `This might be an issue on Anilist's end. Please try again in a minute\n`,
-          `If this doesn't resolve in few hours, you may contact **@Blacky#6618 **`,
-          `You can also make an issue on the [repository](${client.config.github}) or [join](http) ALi's dev server instead.`
+          `If this doesn't resolve in few hours, you may contact **@araan_sheikh#4416 **`,
+          `You can also make an issue on the  [join](http) Clomel dev server.`
         ].join(''))
       );
     };
