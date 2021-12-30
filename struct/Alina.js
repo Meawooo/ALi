@@ -14,7 +14,7 @@ const Mongoose = require(`./Mongoose`);
 const PingManager = require(`./PingManager`);
 const ImageManager = require(`./Images`);
 
-const consoleUtil = require(`../util/console`);
+const consoleUtil = require(`../util/console`); 
 const processEvents = require(`../util/processEvents`);
 
 /**
@@ -37,7 +37,7 @@ module.exports = class AlinaClient extends Client{
      * @type {?string}
      */
     if (typeof settings.prefix !== 'string'){
-      settings.prefix = 'a!';
+      settings.prefix = 'c!';
     };
 
     if (!this.token && 'TOKEN' in process.env){
