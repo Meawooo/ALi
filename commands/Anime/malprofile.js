@@ -31,7 +31,7 @@ module.exports = {
       if (response && response.status >= 500){
         err = `\\${em.error} I just received a server error from Myanimelist. MAL might be currently down. Please try again later.`
       } else if (response && response.status >=400){
-        err = `\`${em.error} CLIENT_ERR\`: Alina attempted to send an invalidated request to MAL. Please contact my developer to fix this bug.`
+        err = `\`${em.error} CLIENT_ERR\`: Clomel attempted to send an invalidated request to MAL. Please contact my developer to fix this bug.`
       } else {
         err = `\\${em.error} I can't find **${query}** on mal`
       };
