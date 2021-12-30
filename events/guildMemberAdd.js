@@ -29,7 +29,7 @@ module.exports = async ( client, member ) => {
       .setTitle(`${member.user.tag} has joined our server!`)
       .setThumbnail(member.user.displayAvatarURL({format: 'png', dynamic: true}))
       .setDescription(`Hello ${member}, welcome to **${member.guild.name}**!\n\nYou are our **${string.ordinalize(member.guild.memberCount)}** member!`)
-      .setFooter(`Member Greeter | ©️${new Date().getFullYear()} ALi`)
+      .setFooter(`Member Greeter | ©️${new Date().getFullYear()} Clomel`)
     );
   };
 
