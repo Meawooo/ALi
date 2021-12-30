@@ -66,7 +66,7 @@ module.exports = {
     await member.send(`**${message.author.tag}** banned you from ${message.guild.name}!\n**Reason**: ${reason.join(' ') || 'Unspecified.'}`)
     .catch(() => null);
 
-    return member.ban({ reason: `ALi Ban Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
+    return member.ban({ reason: `Clomel Ban Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
     .then(_member => message.channel.send(`${em.success} | Successfully banned **${_member.user.tag}**`))
     .catch(() => message.channel.send(`Failed to ban **${member.user.tag}**!`));
   }
