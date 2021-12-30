@@ -39,7 +39,7 @@ module.exports = {
       .setURL('https://disbotlist.xyz')
       .setTitle(`${client.user.username}v${version}`)
       .addFields([
-        {value:'━━━━━━━━━━━━━━━━━━━━━━━━━━━━',name:`ALi Lifetile \u2000\u2000\n\*Serving ${client.guilds.cache.size} servers`},{
+        {value:'━━━━━━━━━━━━━━━━━━━━━━━━━━━━',name:`Clomel Lifetile \u2000\u2000\n\*Serving ${client.guilds.cache.size} servers`},{
           name: '📧\u2000MESSAGES', value: [
             `Sent:\u2000\u2000**${round(client.messages.sent)}**`,
             `Received:\u2000\u2000**${round(client.messages.received)}**`,
