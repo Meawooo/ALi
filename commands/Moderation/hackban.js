@@ -63,7 +63,7 @@ module.exports = {
       return message.channel.send(`${em.error} | ${message.author}, cancelled the hackban command!`);
     };
 
-    return message.guild.members.ban(user, { reason: `Alina Hackban Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
+    return message.guild.members.ban(user, { reason: `Clomel Hackban Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
     .then(_user => message.channel.send(`${em.success} | Successfully banned **${_user.tag}** from this server!`))
     .catch(() => message.channel.send(`${em.error} | Failed to ban **${user.tag}**!`));
   }
