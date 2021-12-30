@@ -8,7 +8,7 @@ module.exports = {
 	group: 'Moderation',
 	description: 'Kicks a user and deletes all their messages in the past 7 days',
 	parameters: ['user Mention/ID'],
-	examples: ['softban @user', 'softban 7283746574829102938'],
+	examples: ['softban @user', 'softban userid'],
 	run: async (client, message, [member = '']) => {
 		if (!member.match(/\d{17,19}/)) {
 			return message.channel.send(
