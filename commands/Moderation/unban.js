@@ -19,7 +19,7 @@ module.exports = {
 
     user = user.match(/\d{17,19}/)[0];
 
-    return message.guild.members.unban(user, { reason: `ALi Unbans: ${message.author.tag}: ${args.join(' ') || 'None'}`})
+    return message.guild.members.unban(user, { reason: `Clomel Unbans: ${message.author.tag}: ${args.join(' ') || 'None'}`})
     .then(user => message.channel.send(`${em.success} | Successfully unbanned **${user.tag}**!`))
     .catch(() => message.channel.send(`${em.error} | Unable to unban user with ID ${user}. The provided argument maybe not a valid user id, or the user is not banned.`));
   }
