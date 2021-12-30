@@ -2,7 +2,7 @@ module.exports = {
   STATS_IS_DEF: {
     title: '%TITLE Feature message has been successfully reverted to **default**!',
     subtitle: [
-      '%STATE members will now be announced by ALi\'s default announce message.',
+      '%STATE members will now be announced by Clomel\'s default announce message.',
       `To change the message, use \`%PREFIX%COMMAND [options] [additional parameters]\``
     ].join('\n')
   },
